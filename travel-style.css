@@ -4,10 +4,11 @@
 
  *{
 
-    margin: 0;
-    padding: 0;
+    
+    
     box-sizing: border-box;
-    max-width: 1300px;
+    max-width:1300px ;
+    
     font-family: 'Mulish', sans-serif;
  }
 
@@ -20,6 +21,7 @@
 
     width: 90%;
     margin: 10px auto;
+    
   }
 
     /* nav  style */
@@ -90,10 +92,10 @@
       background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
       background-repeat:no-repeat ;
       width: 100%;
-      height: 500px;
+      height: 520px;
       object-fit: cover;
-      padding: 5% 0;
-      margin: 50px 0;
+      padding: 20px 0;
+      margin: 20px 0;
       border-radius: 16px;
       
     }
@@ -128,7 +130,7 @@
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
         width: 70%;
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
       }
 
       .form-style{
@@ -178,11 +180,6 @@
   @media screen  and (max-width: 576px) {
 
      
-
-        
-
-    
-
     .nav-iteam{
 
         display:none;
@@ -190,8 +187,30 @@
     .manu-btn{
 
         display: flex;
-        flex-direction: ;
+        
     }
+
+    .banner-form{
+
+      flex-direction: column;
+    }
+
+    
+
+     .nav-title{
+
+      font-size: 22px;
+     }
+
+  
+
+      
+    
+
+
+    
+
+
 
 
     
