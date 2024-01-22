@@ -19,15 +19,17 @@
   .header{
 
     width: 90%;
-    border: 1px solid blueviolet;
     margin: 10px auto;
   }
+
+    /* nav  style */
 
   .nav-container{
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
 
   .nav-title{
@@ -75,7 +77,94 @@
     margin: 6px 0;
   }
 
+    .nav-iteam p a{
 
+        text-decoration: none;
+    }
+
+  /*banner style */
+
+    .banner{
+
+      
+      background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+      background-repeat:no-repeat ;
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      padding: 5% 0;
+      margin: 50px 0;
+      border-radius: 16px;
+      
+    }
+
+    .banner-title{
+
+      color: #FFF;
+      font-size: 64px;
+      font-weight: 800;
+      text-align: center;
+      
+    }
+
+    .banner-text{
+
+      color: #FFF;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      margin:5%;
+      padding: 0 13%;
+
+    }
+
+      .banner-form{
+
+        display:flex;
+        padding: 16px;
+        align-items:center;
+        justify-content:space-between;
+        gap: 24px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        width: 70%;
+        margin: 20px auto;
+      }
+
+      .form-style{
+
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+
+      }
+
+      .btn-form{
+
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        
+      }
+
+      /*main style */
+
+
+
+      
+
+          
+      
+          
+    
 
 
 
