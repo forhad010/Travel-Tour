@@ -7,7 +7,6 @@
     
     
     box-sizing: border-box;
-    max-width:1300px ;
     
     font-family: 'Mulish', sans-serif;
  }
@@ -19,8 +18,10 @@
 
   .header{
 
+    max-width: 1450px;
     width: 90%;
-    margin: 10px auto;
+    margin: 1rem auto;
+    height: 45rem;
     
   }
 
@@ -31,6 +32,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
+    
     
   }
 
@@ -43,7 +47,7 @@
   .nav-text{
 
     color: #131318;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     
   }
@@ -52,13 +56,13 @@
   .nav-iteam{
 
     display: inline-flex;
-    padding: 10px 0px;
+    padding: .8rem 0;
     justify-content: center;
     align-items: center;
-    gap: 44px;
+    gap: 2.75rem;
     color: #424247;
     text-align: center; 
-    font-size: 18px; 
+    font-size: 1.25rem; 
     font-weight: 400;
     
   }
@@ -68,12 +72,12 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
-    padding: 15px;
+    padding: 1rem;
   }
 
   .btn-line{
 
-    width: 30px;
+    width: 1.9rem;
     height: 3px;
     background: #333;
     margin: 6px 0;
@@ -92,10 +96,10 @@
       background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
       background-repeat:no-repeat ;
       width: 100%;
-      height: 520px;
+      height: 600px;
       object-fit: cover;
-      padding: 20px 0;
-      margin: 20px 0;
+      padding: 1.25rem 0;
+      margin: 1.25rem 0;
       border-radius: 16px;
       
     }
@@ -103,7 +107,7 @@
     .banner-title{
 
       color: #FFF;
-      font-size: 64px;
+      font-size: 4rem;
       font-weight: 800;
       text-align: center;
       
@@ -113,7 +117,7 @@
 
       color: #FFF;
       text-align: center;
-      font-size: 18px;
+      font-size: 1.25rem;
       font-weight: 400;
       margin:5%;
       padding: 0 13%;
@@ -126,7 +130,7 @@
         padding: 16px;
         align-items:center;
         justify-content:space-between;
-        gap: 24px;
+        gap: 1.8rem;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
         width: 70%;
@@ -147,8 +151,8 @@
 
       .btn-form{
 
-        width: 174px;
-        height: 52px;
+        width: 11rem;
+        height: 3.5rem;
         border-radius: 8px;
         background: #FF5400;
         display: flex;
@@ -158,6 +162,79 @@
       }
 
       /*main style */
+
+          main{
+
+            width: 90%;
+            margin: 1rem auto;
+          }
+            /*popular tour section style */
+
+        .popular-tour{
+
+ 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            width: 100%;
+
+            margin: 2rem 0;
+            
+
+        }
+
+        .popular-tour-contaiter{
+
+          width: 45%;
+          height: 45%;
+          
+        }
+
+        .popular-tour-img-contaiter{
+
+            width: 45%;
+            45%
+            padding-top: 1rem;
+        }
+
+        .popular-tour-img-contaiter img{
+
+          width: 100%;
+          height: 80%;
+        }
+
+        .popular-tour-title{
+
+          color: #131318;
+          font-family: Mulish;
+          font-size: 40px;
+          font-weight: 800;
+      
+        }
+
+        .popular-tour-text{
+
+          color: rgba(19, 19, 24, 0.70);
+          font-family: Mulish;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px; /* 162.5% */
+        }
+
+        .btn-popular-tour{
+
+          width: 10.5rem;
+          height: 3.5rem;
+          border-radius: 8px;
+          background: #FF5400;
+          color: #FFF;
+         
+        }
+ 
+        /*your destination*/
+
+
 
 
 
@@ -199,7 +276,7 @@
 
      .nav-title{
 
-      font-size: 22px;
+      font-size: 1.38rem;
      }
 
   
